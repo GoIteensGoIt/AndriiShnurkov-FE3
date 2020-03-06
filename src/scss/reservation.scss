@@ -1,0 +1,222 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     text-decoration: none;
+//     list-style: none;
+// }
+
+.reservation {
+    margin-top: 55px;
+}
+
+.reservation__imgBar {
+    background: url(../favicon/pic3.jpg);
+    width: 280px;
+    height: 325px;
+    background-position: left -40px top -90px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-color: #a19ea1;
+    background-blend-mode: multiply;
+    margin: 0 auto;
+}
+
+.reservation__imgBar-phoneNumber {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    color: #ffff;
+    font-family: "Montserrat_Bold";
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.reservation__imgBar-title {
+    color: #f3820a;
+    font-family: "Brush_Script";
+    font-size: 28px;
+    text-align: center;
+    width: 172px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.reservation__imgBar-button {
+    background-color: #f3820a;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 240px;
+    height: 56px;
+    margin-top: 32px;
+}
+
+.reservation__imgBar-buttonText {
+    text-align: center;
+    display: block;
+    font-family: "Montserrat-SemiBold";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 55px;
+    color: black;
+}
+
+.reservation__blockSchedule {
+    background-color: #4f181d;
+    width: 280px;
+    height: 325px;
+    margin: 0 auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+.reservation__blockSchedule-title {
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    font-family: "Montserrat_Bold";
+    line-height: 110px;
+}
+
+
+.reservation__blockSchedule-week {
+    width: 210px;
+    margin: 0 auto;
+}
+
+.reservation__blockSchedule-day {
+    color: #f3820a;
+}
+
+.reservation__blockSchedule-time {
+    color: #ffff;
+    float: right;
+}
+
+.reservation__blockSchedule-day,
+.reservation__blockSchedule-time {
+    font-family: "Montserrat_Regular";
+    font-size: 13px;
+    line-height: 26px;
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    .reservation__imgBar-title {
+        width: 282px;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .reservation__imgBar {
+        background-size: 105%;
+        width: 688px;
+        height: 325px;
+        background-position: center;
+    }
+
+    .reservation__imgBar-phoneNumber {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+
+    .reservation__blockSchedule {
+        width: 688px;
+        height: 325px;
+    }
+
+    .reservation__blockSchedule-week {
+        width: 310px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .reservation__blockSchedule-week {
+        width: 310px;
+    }
+
+    .reservation__imgBar {
+        background-size: 105%;
+        width: 793px;
+        height: 518px;
+        background-position: center;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+    .reservation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reservation__blockSchedule {
+        width: 387px;
+        height: 518px;
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+
+    .reservation__imgBar-title {
+        padding-top: 145px;
+    }
+
+    .reservation__imgBar-phoneNumber {
+        font-size: 54px;
+        margin: 0;
+    }
+
+    .reservation__imgBar-button {
+        margin-top: 45px;
+    }
+
+    .reservation__blockSchedule-title {
+        line-height: 130px;
+    }
+
+    .reservation__blockSchedule-day,
+    .reservation__blockSchedule-time {
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .reservation__blockSchedule-day,
+    .reservation__blockSchedule-time {
+        font-size: 16px;
+    }
+
+    .reservation__imgBar {
+        width: 1049px;
+        height: 620px;
+        margin-right: 10.5px;
+    }
+
+    .reservation__imgBar-title {
+        padding-top: 200px;
+        font-size: 40px;
+        width: 390px;
+    }
+
+    .reservation__imgBar-phoneNumber {
+        font-size: 64px;
+    }
+
+    .reservation__blockSchedule {
+        width: 513px;
+        height: 620px;
+        margin-left: 10.5px;
+    }
+
+    .reservation__blockSchedule-title {
+        margin-top: 70px;
+        font-size: 26px;
+    }
+}

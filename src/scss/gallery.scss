@@ -1,0 +1,209 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.wrapper {
+    // padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tittle {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.galleryImage3 {
+    transform: scale(-1, 1)
+}
+
+.galleryImage1,
+.galleryImage2,
+.galleryImage3,
+.galleryImage4,
+.galleryImage5 {
+    width: 280px;
+    height: 270px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+@media screen and (min-device-width: 768px) {
+    .galleryImage1 {
+        width: 690px;
+        height: 540px;
+    }
+
+
+    .galleryImage2,
+    .galleryImage3,
+    .galleryImage4,
+    .galleryImage5 {
+        width: 330px;
+        height: 340px;
+    }
+
+
+    @media screen and (min-device-width: 1280px) {
+
+        .wrapper {
+            justify-content: start;
+        }
+
+        .tittle {
+            display: none;
+        }
+
+        .galleryImage1 {
+            margin-top: 10px;
+            width: 592px;
+            height: 564px;
+        }
+
+        .imgblock1,
+        .imgblock2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .galleryImage2,
+        .galleryImage3,
+        .galleryImage4,
+        .galleryImage5 {
+            width: 287px;
+            height: 272px;
+        }
+
+    }
+}
+
+// .gallery {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-top: 50px;
+// }
+
+// .flex {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .letter {
+//     font-family: "Montserrat_Bold";
+//     font-weight: 800;
+//     font-size: 24px;
+//     text-align: center;
+// }
+
+// .team-list {
+//     margin-top: 31px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+// }
+
+// .team-list-item,
+// .team-list-big {
+//     margin-bottom: 18px;
+
+
+// }
+
+// .link,
+// .link-big {
+//     width: 282px;
+//     height: 271px;
+
+
+// }
+
+// .team-list-big {
+//     position: relative;
+//     overflow: hidden;
+// }
+
+// @media(min-width: 768px) {
+
+
+//     .flex {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-between;
+//         flex-wrap: wrap;
+//         width: 690px;
+//         margin-top: 19px;
+//     }
+
+//     .big {
+//         width: 690px;
+//         height: 537px;
+//     }
+
+//     .team-list-big {
+//         margin: 0;
+//     }
+
+//     .team-list-item {
+//         width: 334px;
+//         height: 343px;
+//     }
+
+//     .link {
+//         width: 334px;
+//         height: 343px;
+//     }
+
+// }
+
+// @media(min-width: 1280px) {
+//     .team-list {
+//         margin-top: 31px;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//     }
+
+//     .team-list-big {}
+
+//     .big,
+//     .flex {
+//         width: 592px;
+//         height: 561px;
+//         margin: 0;
+//     }
+
+//     .team-list-item {
+//         width: 287px;
+//         height: 272px;
+//     }
+
+//     .link {
+//         width: 287px;
+//         height: 272px;
+//         margin-left: 18px;
+//     }
+// }
+
+// @media(min-width: 1920px) {
+
+//     .team-list-big,
+//     .flex {
+//         width: 784px;
+//         height: 740px;
+//     }
+
+//     .link-big {
+//         width: 784px;
+//         height: 740px;
+//     }
+
+// }
