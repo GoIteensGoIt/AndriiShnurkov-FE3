@@ -90,27 +90,7 @@
         top: 30px;
         border-radius: 20%;
     }
-
-    // .facebook {
-    //     position: absolute;
-    //     width: 9px;
-    //     height: 16px;
-    //     left: 655px;
-    //     top: 37px;
-    // }
-
-    // .instagram {
-    //     position: absolute;
-    //     width: 16px;
-    //     height: 16px;
-    //     left: 702px;
-    //     top: 37px;
-    // }
 }
-
-
-
-
 
 @media (min-width: 768px) {
     .header {
@@ -138,8 +118,6 @@
         display: flex;
         margin-right: 41px;
     }
-
-
 
     .info__contacts {
         display: flex;
@@ -184,3 +162,148 @@
         width: 16px;
     }
 }
+
+// Daniil
+// .header__menuButton div {
+//     background-color: #ffff;
+//     width: 25px;
+//     height: 2px;
+//     margin-bottom: 3px;
+// }
+
+// .header__menuButton {
+//     cursor: pointer;
+// }
+
+// .header__info-socialNetworks {
+//     display: flex;
+// }
+
+// .header__info {
+//     display: none;
+// }
+
+// .header__logoImg {
+//     width: 90px;
+//     height: 42px;
+// }
+
+// .header__menuButton div:last-child {
+//     margin-bottom: 0;
+// }
+
+// .header {
+//     background-color: #4f181d;
+//     height: 90px;
+//     padding: 0 20px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     font-family: 'Montserrat', sans-serif;
+// }
+
+// .header__info-socialNetworks-logo {
+//     width: 35px;
+//     height: 30px;
+//     border: 1px solid #f3820a;
+//     border-radius: 5px;
+//     margin-right: 15px;
+// }
+
+// .header__info-socialNetworks-logoImg {
+//     margin: 0 auto;
+//     display: block;
+//     margin-top: 5px;
+// }
+
+// @media (min-width: 768px) and (orientation: landscape) {
+
+//     .header {
+//         padding: 0 35px;
+//     }
+
+//     .header__info-locationImg,
+//     .header__info-line,
+//     .header__menuButton {
+//         display: none;
+//     }
+
+//     .header__infoText {
+//         margin-right: 50px;
+//         display: grid;
+//     }
+
+//     .header__info {
+//         display: unset;
+//         display: flex;
+//     }
+
+//     .header__info-phoneNumber {
+//         font-size: 22px;
+//         color: #f3820a;
+//     }
+
+//     .header__info-location {
+//         font-size: 10px;
+//         color: #f3820a;
+//     }
+
+//     .header__info-location {
+//         text-align: right;
+//     }
+
+//     .header__info-socialNetworks-logo:last-child {
+//         margin-right: 0;
+//     }
+// }
+
+// @media (min-width: 1280px) {
+//     .header__logoImg {
+//         width: 116px;
+//         height: 54px;
+//     }
+// }
+
+// @media (min-width: 1920px) {
+//     .header__logoImg {
+//         width: 112px;
+//         height: 53px;
+//     }
+
+//     .header {
+//         padding: 0 160px;
+//     }
+
+//     .header__infoText,
+//     .header__info-line,
+//     .header__info-locationImg {
+//         display: unset;
+//     }
+
+//     .header__info-line {
+//         width: 1px;
+//         height: 20px;
+//         display: inline-block;
+//         margin: -1px 22px;
+//         background-color: #7b5256;
+//     }
+
+//     .header__info-location {
+//         position: absolute;
+//         top: 35px;
+//         right: 560px;
+//     }
+
+//     .header__info-location {
+//         font-size: 14px;
+//     }
+
+//     .header__info-location::before {
+//         content: url("./assets/icon\ pointer@1X.png");
+//         margin-right: 10px;
+//     }
+
+//     .header__info-phoneNumber {
+//         font-size: 24px;
+//     }
+// }

@@ -1,4 +1,4 @@
-//  ****** Dasha **********
+//  Дария Шолойко https://github.com/dasholoyko2004/smile_footer
 .foot {
     background-color: red;
 }
@@ -140,10 +140,6 @@
     height: 47px;
 }
 
-
-/* TABLET */
-
-
 @media (min-width: 768px) {
     .footerTabletWrap {
         width: 100%;
@@ -205,10 +201,6 @@
 
 }
 
-
-/* LAPTOP */
-
-
 @media (min-width: 1023px) {
     .footerTabletWrap {
         width: 65%;
@@ -257,10 +249,6 @@
     }
 }
 
-
-/* DESKTOP */
-
-
 @media (min-width: 1281px) {
     .logo {
         width: 112px;
@@ -284,7 +272,7 @@
     }
 }
 
-//  ****** Alexander **********
+//  aleksandr_avershyn
 
 // .footer {
 //     /* height: 391px; */
@@ -297,6 +285,12 @@
 //     width: 66px;
 //     margin-top: 44px;
 //     margin-left: 127px;
+// }
+
+// .foot_logo {
+//     height: 31px;
+//     width: 66px;
+
 // }
 
 // .footer_place {
@@ -403,7 +397,6 @@
 //     width: 320px;
 //     background-color: #421418;
 //     display: flex;
-//     align-items: center; // added
 // }
 
 // .c {
@@ -446,3 +439,279 @@
 // .link_GoITeens {
 //     color: #714f52;
 // }
+
+// .foot_logo {
+//     display: inline-block;
+// }
+
+
+// @media (min-width: 768px) {
+//     /* .foot_logo {
+//         display: inline-block;
+//     } */
+//     .footer {
+//         width: 768px;
+
+//    }
+
+//    .footer_2 {
+//        display: flex;
+//    }
+
+//     .foot_logo {
+//         height: 38px;
+//        width: 66px;
+//     }
+
+//    .footer_logo {
+//        height: 38px;
+//        width: 66px;
+//        margin-left: 39px;
+//    }
+//     .footer_place {
+//         margin-left: 54px;
+//         margin-top: 43px;
+//     }
+
+//     .adress {
+//        margin-left: 7px;
+//        margin-top: 48px;
+//    }
+
+
+
+
+//    .footer_telephone {
+//        margin-left: 58px;
+//        margin-top: 49px;
+//    }
+
+//    .footer_email {
+//        margin-left: 58px;
+//        margin-top: 11px;
+//    }
+
+
+//    .rectangle1 {
+//        margin-left: 56px;
+//        margin-top: 53px;
+//    }
+
+
+//    .rectangle2 {
+//     margin-left: 15px;
+//     margin-top: 53px;
+//    }
+
+
+//    .button_footer {
+//        margin-top: 40px;
+//        margin-left: 238px;
+//    }
+
+
+//    .ho_line_footer {
+//        margin-top: 50px;
+//        width: 768px;
+//    }
+
+
+//    .footest_footer {
+//        width: 768px;
+//        justify-content: center;
+//    }
+
+// }
+
+// @media (min-width: 768px) and (orientation: landscape) {}
+
+// @media (min-width: 1280px) {
+
+
+//     .footer {
+//         width: 1280px;
+
+//    }
+
+//    .footer_1 {
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//    }
+
+//    .footer_2 {
+//        display: flex;
+
+//    }
+
+//     .foot_logo {
+//         height: 39px;
+//         width: 85px;
+
+//     }
+
+//    .footer_logo {
+//        height: 39px;
+//        width: 85px;
+
+//        margin-top: 52px;
+//    }
+//     .footer_place {
+//         margin-left: 51px;
+//         margin-top: 63px;
+//     }
+
+//     .adress {
+//        margin-left: 7px;
+//        margin-top: 68px;
+//        width: 152px;
+//    }
+
+
+
+
+//    .footer_telephone {
+//        margin-left: 58px;
+//        margin-top: 69px;
+//    }
+
+//    .footer_email {
+//        margin-left: 58px;
+//        margin-top: 11px;
+//        width: 198px;
+//    }
+
+
+//    .rectangle1 {
+//        margin-left: 56px;
+//        margin-top: 73px;
+//    }
+
+
+//    .rectangle2 {
+//     margin-left: 15px;
+//     margin-top: 73px;
+//    }
+
+
+//    .button_footer {
+//        margin-left: 55px;
+//        width: 240px;
+//        height: 56px;
+//    }
+
+//    .button_orange_footer {
+//        margin: 0;
+//    }
+
+
+//    .ho_line_footer {
+//        margin-top: 62px;
+//        width: 1280px;
+//    }
+
+
+//    .footest_footer {
+//        width: 1280px;
+//        justify-content: center;
+//    }
+
+
+
+
+
+// }
+
+// @media (min-width: 1280px) and (orientation: landscape) {}
+
+// @media (min-width: 1920px)  {
+
+//     .footer_1 {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
+
+//     .footer_2 {
+//         display: flex;
+
+//     }
+
+//     .footer {
+//         width: 1920px;
+
+//    }
+
+
+
+//     .foot_logo {
+//         height: 53px;
+//        width: 112px;
+//     }
+
+//    .footer_logo {
+//        height: 53px;
+//        width: 112px;
+//        margin-top: 56px;
+
+//    }
+//     .footer_place {
+//         margin-left: 149px;
+//         margin-top: 69px;
+//     }
+
+//     .adress {
+//        margin-left: 7px;
+//        margin-top: 74px;
+//        width: 152px;
+//    }
+
+
+
+
+//    .footer_telephone {
+//        margin-left: 98px;
+//        margin-top: 75px;
+//    }
+
+//    .footer_email {
+//        margin-left: 58px;
+//        margin-top: 11px;
+//        width: 198px;
+//    }
+
+
+//    .rectangle1 {
+//        margin-left: 96px;
+//        margin-top: 79px;
+//    }
+
+
+//    .rectangle2 {
+//     margin-left: 15px;
+//     margin-top: 79px;
+//    }
+
+
+//    .button_footer {
+//        margin-top: 64px;
+//        margin-left: 173px;
+//        width: 240px;
+//        height: 56px;
+//    }
+
+
+//    .ho_line_footer {
+//        margin-top: 63px;
+//        width: 1920px;
+//    }
+
+
+//    .footest_footer {
+//        width: 1920px;
+//        justify-content: center;
+//    }
+
+// }
+
+// @media (min-width: 1920px) and (orientation: landscape) {}
