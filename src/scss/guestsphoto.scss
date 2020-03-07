@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 34px;
 }
 
 .guests__title {
@@ -64,13 +64,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 48px;
+        // margin-top: 43px;
 
     }
 
     .guests__title {
         font-family: "Montserrat_Bold";
-        margin-bottom: 34px;
+        font-size: 34px;
+        margin-bottom: 48px;
     }
 
     .guests__photo {
@@ -136,7 +137,8 @@
     .guests__title {
         font-family: "Montserrat_Bold";
         font-size: 43px;
-        margin-bottom: 34px;
+        margin-bottom: 62px;
+        margin-top: 62px;
     }
 
     .guests__photo {

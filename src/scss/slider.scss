@@ -1,11 +1,3 @@
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//     text-decoration: none;
-//     list-style: none;
-// }
-
 .slider {
     background-image: url(../favicon/hero-img.jpg);
     background-color: #646364;
@@ -44,9 +36,12 @@
 .slider__promo {
     font-size: 14px;
     line-height: 27px;
-    width: 256px;
     margin-top: 25px;
     font-family: "Montserrat-Medium", sans-serif;
+}
+
+.slider__promo br {
+    display: none;
 }
 
 
@@ -80,7 +75,8 @@
     display: none;
 }
 
-@media (min-width: 768px) and (orientation: landscape) {
+@media (min-width: 768px) {
+
     .slider {
         height: 676px;
         background-size: 150%;
@@ -89,7 +85,7 @@
 
     .slider__mainTitle {
         font-size: 33px;
-        width: 100%;
+        width: 378px;
         padding-top: 220px;
     }
 
@@ -109,6 +105,7 @@
     .slider_promo br {
         display: none;
     }
+
 
     .slider__arrows {
         display: flex;
@@ -142,7 +139,7 @@
     }
 
     .slider__promo {
-        width: 610px;
+        width: 600px;
         margin-top: 20px;
         font-size: 16px;
     }
