@@ -1,293 +1,283 @@
 .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
-
 .gallery__letter {
-    font-family: "Montserrat_Bold";
-    font-weight: 800;
-    font-size: 24px;
-    text-align: center;
+  font-family: "Montserrat_Bold";
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
 }
 
 .gallery__teamList {
-    margin-top: 31px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .teamListBig {
-    position: relative;
-    margin-bottom: 18px;
-    overflow: hidden;
-    width: 282px;
-    height: 271px;
+  position: relative;
+  margin-bottom: 18px;
+  overflow: hidden;
+  width: 280px;
+  height: 271px;
 }
 
 .link-big {
-    position: absolute;
-    width: 284px;
-    height: 332px;
-    top: -57px;
-
+  position: absolute;
+  width: 280px;
+  height: 332px;
+  top: -57px;
 }
 
 .team-list-item {
-    position: relative;
-    overflow: hidden;
-    width: 282px;
-    height: 271px;
-    margin-bottom: 18px;
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+  height: 271px;
+  margin-bottom: 18px;
 }
 
 .team-list-item1 {
-    position: absolute;
-    width: 366px;
-    height: 498px;
-    top: -151px;
-    left: -63px;
+  position: absolute;
+  width: 366px;
+  height: 498px;
+  top: -151px;
+  left: -63px;
 }
 
 .team-list-item2 {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    position: absolute;
-    width: 291px;
-    height: 393px;
-    top: -46px;
-    left: 0;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  width: 291px;
+  height: 393px;
+  top: -46px;
+  left: 0;
 }
 
 .team-list-item3 {
-    position: absolute;
-    width: 291px;
-    height: 320px;
-    top: -17px;
-    left: 0;
+  position: absolute;
+  width: 291px;
+  height: 320px;
+  top: -17px;
+  left: 0;
 }
 
 .team-list-item4 {
+  position: absolute;
+  width: 333px;
+  height: 451px;
+  top: -38px;
+  left: -32px;
+}
+
+@media (min-width: 768px) {
+  .gallery__letter br {
+    display: none;
+  }
+
+  .teamListBig {
+    width: 690px;
+    height: 537px;
+  }
+
+  .link-big {
     position: absolute;
-    width: 333px;
-    height: 451px;
-    top: -38px;
-    left: -32px;
+    width: 690px;
+    height: 812px;
+    top: -201px;
+  }
+
+  .teamList__flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 690px;
+  }
+
+  .team-list-item {
+    width: 334px;
+    height: 343px;
+  }
+
+  .team-list-item1 {
+    width: 368px;
+    height: 452px;
+    top: -101px;
+    left: -28px;
+  }
+
+  .team-list-item2 {
+    width: 335px;
+    height: 452px;
+    top: -46px;
+    left: 0;
+  }
+
+  .team-list-item3 {
+    width: 390px;
+    height: 429px;
+    top: -64px;
+    left: -28px;
+  }
+
+  .team-list-item4 {
+    width: 335px;
+    height: 452px;
+    top: -46px;
+    left: 0;
+  }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 1280px) {
+  .gallery__letter {
+    font-size: 43px;
+    margin-top: 62px;
+  }
 
-    .gallery__letter br {
-        display: none;
-    }
+  .gallery__teamList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 63px;
+    width: 1200px;
+    height: 561px;
+  }
 
-    .teamListBig {
-        width: 690px;
-        height: 537px;
-    }
+  .teamListBig {
+    width: 592px;
+    height: 561px;
+    top: 9px;
+    overflow: hidden;
+  }
 
-    .link-big {
-        position: absolute;
-        width: 690px;
-        height: 812px;
-        top: -201px;
-    }
+  .link-Big {
+    width: 592px;
+    height: 692px;
+    top: -110px;
+    left: 0px;
+  }
 
-    .teamList__flex {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 690px;
-    }
+  .teamList__flex {
+    flex-direction: row;
+    width: 592px;
+    height: 561px;
+  }
 
-    .team-list-item {
-        width: 334px;
-        height: 343px;
-    }
+  .team-list-item {
+    width: 287px;
+    height: 272px;
+  }
 
-    .team-list-item1 {
-        width: 368px;
-        height: 452px;
-        top: -101px;
-        left: -28px;
-    }
+  .team-list-item1 {
+    width: 348px;
+    height: 481px;
+    top: -134px;
+    left: -53px;
+    margin-left: 18px;
+  }
 
-    .team-list-item2 {
-        width: 335px;
-        height: 452px;
-        top: -46px;
-        left: 0;
-    }
+  .team-list-item2 {
+    width: 291px;
+    height: 393px;
+    top: -46px;
+    left: -17px;
+    margin-left: 18px;
+  }
 
-    .team-list-item3 {
-        width: 390px;
-        height: 429px;
-        top: -64px;
-        left: -28px;
-    }
+  .team-list-item3 {
+    width: 293px;
+    height: 312px;
+    top: -9px;
+    left: -20px;
+    margin-left: 18px;
+  }
 
-    .team-list-item4 {
-        width: 335px;
-        height: 452px;
-        top: -46px;
-        left: 0;
-    }
+  .team-list-item4 {
+    width: 332px;
+    height: 465px;
+    top: -48px;
+    left: -53px;
+    margin-left: 18px;
+  }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1920px) {
+  .gallery__letter {
+    font-size: 43px;
+  }
 
-    .gallery__letter {
-        font-size: 43px;
-        margin-top: 62px;
-    }
+  .gallery__teamList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 63px;
+    width: 1583px;
+    height: 740px;
+  }
 
-    .gallery__teamList {
+  .teamListBig {
+    width: 784px;
+    height: 740px;
+    top: 9px;
+    overflow: hidden;
+  }
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 63px;
-        width: 1200px;
-        height: 561px;
-    }
+  .link-Big {
+    width: 776px;
+    height: 905px;
+    top: -96px;
+    left: 0;
+  }
 
-    .teamListBig {
-        width: 592px;
-        height: 561px;
-        top: 9px;
-        overflow: hidden;
-    }
+  .teamList__flex {
+    flex-direction: row;
+    width: 784px;
+    height: 740px;
+  }
 
-    .link-Big {
-        width: 592px;
-        height: 692px;
-        top: -110px;
-        left: 0px;
-    }
+  .team-list-item {
+    width: 381px;
+    height: 360px;
+  }
 
-    .teamList__flex {
-        flex-direction: row;
-        width: 592px;
-        height: 561px;
+  .team-list-item1 {
+    width: 386px;
+    height: 520px;
+    top: -96px;
+    left: -20px;
+    margin-left: 19px;
+  }
 
-    }
+  .team-list-item2 {
+    width: 381px;
+    height: 531px;
+    top: -64px;
+    left: -17px;
+    margin-left: 19px;
+  }
 
-    .team-list-item {
-        width: 287px;
-        height: 272px;
-    }
+  .team-list-item3 {
+    width: 384px;
+    height: 392px;
+    top: -9px;
+    left: -20px;
+    margin-left: 19px;
+  }
 
-    .team-list-item1 {
-        width: 348px;
-        height: 481px;
-        top: -134px;
-        left: -53px;
-        margin-left: 18px;
-    }
-
-    .team-list-item2 {
-        width: 291px;
-        height: 393px;
-        top: -46px;
-        left: -17px;
-        margin-left: 18px;
-    }
-
-    .team-list-item3 {
-        width: 293px;
-        height: 312px;
-        top: -9px;
-        left: -20px;
-        margin-left: 18px;
-    }
-
-    .team-list-item4 {
-        width: 332px;
-        height: 465px;
-        top: -48px;
-        left: -53px;
-        margin-left: 18px;
-    }
-
-}
-
-@media(min-width: 1920px) {
-    .gallery__letter {
-        font-size: 43px;
-    }
-
-    .gallery__teamList {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 63px;
-        width: 1200px;
-        height: 561px;
-    }
-
-    .teamListBig {
-        width: 784px;
-        height: 740px;
-        top: 9px;
-        overflow: hidden;
-    }
-
-    .link-Big {
-        width: 592px;
-        height: 692px;
-        top: -110px;
-        left: 0px;
-    }
-
-    .teamList__flex {
-        flex-direction: row;
-        width: 784px;
-        height: 740px;
-
-    }
-
-    .team-list-item {
-        width: 287px;
-        height: 272px;
-    }
-
-    .team-list-item1 {
-        width: 348px;
-        height: 481px;
-        top: -134px;
-        left: -53px;
-        margin-left: 18px;
-    }
-
-    .team-list-item2 {
-        width: 291px;
-        height: 393px;
-        top: -46px;
-        left: -17px;
-        margin-left: 18px;
-    }
-
-    .team-list-item3 {
-        width: 293px;
-        height: 312px;
-        top: -9px;
-        left: -20px;
-        margin-left: 18px;
-    }
-
-    .team-list-item4 {
-        width: 332px;
-        height: 465px;
-        top: -48px;
-        left: -53px;
-        margin-left: 18px;
-    }
+  .team-list-item4 {
+    width: 417px;
+    height: 533px;
+    top: -17px;
+    left: -53px;
+    margin-left: 19px;
+  }
 }

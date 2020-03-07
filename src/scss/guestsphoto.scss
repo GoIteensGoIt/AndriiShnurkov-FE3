@@ -17,8 +17,8 @@
 
 .photo__block {
     position: relative;
-    height: 280px;
-    width: 269px;
+    width: 280px;
+    height: 271px;
     overflow: hidden;
     margin-bottom: 19px;
 }
@@ -38,135 +38,189 @@
     height: 503px;
 }
 
-.block__photo {
-    height: 280px;
-    width: 269px;
+.block__photo3 {
+    position: absolute;
+    left: -154px;
+    top: -13px;
+    width: 515px;
+    height: 312px;
 }
 
-// .text {
-//     text-align: center;
-//     font-family: Montserrat-Bold;
-//     margin-bottom: 34px;
-// }
+.block__photo4 {
+    position: absolute;
+    left: -78px;
+    top: -172px;
+    width: 481px;
+    height: 704px;
+}
+
+.tablet__block {
+    display: none
+}
+
 
 @media (min-width: 768px) {
     .guests {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        margin-bottom: 48px;
+
     }
 
+    .guests__title {
+        font-family: "Montserrat_Bold";
+        margin-bottom: 34px;
+    }
 
     .guests__photo {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         flex-wrap: wrap;
-        margin: 0 39px;
+        justify-content: space-between;
+        width: 690px;
     }
 
     .photo__block {
+        position: relative;
         width: 334px;
         height: 343px;
         overflow: hidden;
+        margin-bottom: 19px;
     }
 
     .block__photo1 {
-        left: -208px;
+        position: absolute;
+        left: -212px;
+        width: 655px;
+        height: 367px;
         top: -17px;
-        width: 650px;
-        height: 360px;
+    }
+
+    .block__photo2 {
+        position: absolute;
+        left: 1px;
+        top: -68px;
+        width: 362px;
+        height: 485px;
     }
 
     .block__photo3 {
-        left: -288px;
-        width: 509px;
-        height: 343px;
+        position: absolute;
+        left: -186px;
+        top: 0px;
+        width: 608px;
+        height: 361px;
+    }
+
+    .block__photo4 {
+        position: absolute;
+        left: -81px;
+        top: -161px;
+        width: 500px;
+        height: 671px;
     }
 
 }
 
-//     .wrapper {
-//         width: 336px;
-//         height: 345px;
-//         margin-right: 20px;
-//         margin-bottom: 20px;
-//     }
+@media (min-width: 1280px) {
+    .guests {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 48px;
 
-//     .photo {
-//         width: 336px;
-//         height: 345px;
-//     }
 
-//     .wrapper:nth-child(2n) {
-//         margin-right: 0;
-//     }
+    }
 
-//     .photo1 {
-//         top: -15px;
-//         bottom: 0;
-//         left: -208px;
-//         width: 650px;
-//         height: 360px;
-//     }
-// }
+    .guests__title {
+        font-family: "Montserrat_Bold";
+        margin-bottom: 34px;
+    }
 
-// /* @media (min-width: 768px) and (max-width: 1024px) {}
+    .guests__photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+    }
 
-// @media (min-width: 1025px) and (max-width: 1280px) {}
+    .photo__block {
+        position: relative;
+        width: 285px;
+        height: 269px;
+        overflow: hidden;
+        margin-bottom: 19px;
+    }
 
-// @media (min-width: 1281px) {} */
+    .block__photo1 {
+        position: absolute;
+        left: -139px;
+        width: 494px;
+        height: 274px;
+        top: 0px;
+    }
 
-// Timofii
-// .title {
-//     text-align: center;
-// }
+    .block__photo2 {
+        position: absolute;
+        left: 1px;
+        top: -68px;
+        width: 362px;
+        height: 485px;
+    }
 
-// .blockImgScale {
-//     height: 269px;
-//     width: 280px;
-//     position: relative;
-//     overflow: hidden;
-//     margin: 0 auto;
-//     margin-top: 19px;
-// }
+    .block__photo3 {
+        position: absolute;
+        left: -153px;
+        top: -13px;
+        width: 528px;
+        height: 292px;
+    }
 
-// .blockImgScaleItem {
-//     position: absolute;
-//     left: -139px;
-//     width: 494px;
-//     height: 274px;
-// }
+    .block__photo4 {
+        position: absolute;
+        left: -81px;
+        top: -161px;
+        width: 500px;
+        height: 671px;
+    }
 
-// .blockImg {
-//     margin: 0 auto;
-//     margin-top: 19px;
-//     height: 271px;
-//     width: 282px;
-//     overflow: hidden;
-// }
+    .tablet__block {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+    }
 
-// @media (min-width: 768px) {
-//     .imagesWrapper {
-//         display: flex;
-//         flex-wrap: wrap;
-//         justify-content: center;
-//     }
+    .block__photo5 {
+        position: absolute;
+        left: 0px;
+        width: 286px;
+        height: 369px;
+        top: -17px;
+    }
 
-//     .blockImgScale {
-//         /* height: 390px;
-//         width: 350px; */
-//     }
+    .block__photo6 {
+        position: absolute;
+        left: -10px;
+        top: 0px;
+        width: 359px;
+        height: 270px;
+    }
 
-// }
+    .block__photo7 {
+        position: absolute;
+        left: 0px;
+        top: -31px;
+        width: 296px;
+        height: 386px;
+    }
 
-// @media (min-width: 768px) and (orientation: landscape) {}
+    .block__photo8 {
+        position: absolute;
+        left: -69px;
+        top: -58px;
+        width: 362px;
+        height: 413px;
+    }
 
-// @media (min-width: 1280px) {}
-
-// @media (min-width: 1280px) and (orientation: landscape) {}
-
-// @media (min-width: 1920px) {}
-
-// @media (min-width: 1920px) and (orientation: landscape) {}
+}
