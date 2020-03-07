@@ -143,7 +143,8 @@
 
 @media(min-width: 1280px) {
 
-    .gallery__letter br {
+    .gallery__letter {
+        font-size: 43px;
         margin-top: 62px;
     }
 
@@ -217,4 +218,76 @@
 
 }
 
-@media(min-width: 1920px) {}
+@media(min-width: 1920px) {
+    .gallery__letter {
+        font-size: 43px;
+    }
+
+    .gallery__teamList {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 63px;
+        width: 1200px;
+        height: 561px;
+    }
+
+    .teamListBig {
+        width: 784px;
+        height: 740px;
+        top: 9px;
+        overflow: hidden;
+    }
+
+    .link-Big {
+        width: 592px;
+        height: 692px;
+        top: -110px;
+        left: 0px;
+    }
+
+    .teamList__flex {
+        flex-direction: row;
+        width: 784px;
+        height: 740px;
+
+    }
+
+    .team-list-item {
+        width: 287px;
+        height: 272px;
+    }
+
+    .team-list-item1 {
+        width: 348px;
+        height: 481px;
+        top: -134px;
+        left: -53px;
+        margin-left: 18px;
+    }
+
+    .team-list-item2 {
+        width: 291px;
+        height: 393px;
+        top: -46px;
+        left: -17px;
+        margin-left: 18px;
+    }
+
+    .team-list-item3 {
+        width: 293px;
+        height: 312px;
+        top: -9px;
+        left: -20px;
+        margin-left: 18px;
+    }
+
+    .team-list-item4 {
+        width: 332px;
+        height: 465px;
+        top: -48px;
+        left: -53px;
+        margin-left: 18px;
+    }
+}
