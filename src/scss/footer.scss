@@ -38,11 +38,7 @@
     height: 31px;
 }
 
-.place {
-    width: 12px;
-    height: 16px;
-    margin-right: 10px;
-}
+
 
 .pointer {
     width: 16px;
@@ -140,6 +136,20 @@
     height: 47px;
 }
 
+.flexed__location {
+    display: flex;
+    position: relative;
+
+}
+
+.location__icon {
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    margin-top: 4px;
+    left: -16px;
+}
+
 @media (min-width: 768px) {
     .footerTabletWrap {
         width: 100%;
@@ -199,6 +209,11 @@
         width: 100%;
     }
 
+    .location__icon {
+        margin-top: 4px;
+        top: 0px;
+        left: -16px;
+    }
 }
 
 @media (min-width: 1023px) {
