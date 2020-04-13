@@ -1,309 +1,160 @@
 .header {
-    width: 100%;
-    height: 90px;
-    background-color: #4f181d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: #4f181d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
-    width: 110px;
-    height: 92px;
-    padding-left: 19px;
-
+  width: 110px;
+  height: 92px;
+  padding-left: 19px;
 }
 
 .header__lines {
-    filter: invert(1);
-    font-size: 29px;
-    margin-right: 20px;
+  filter: invert(1);
+  font-size: 29px;
+  margin-right: 20px;
 }
 
 .header__info {
-    display: none;
+  display: none;
 }
 
 .cube:first-child {
+  position: absolute;
+  left: 642px;
+  top: 30px;
+  border-radius: 20%;
+}
+
+@media (min-width: 768px) {
+  .header {
+    width: 768px;
+    height: 90px;
+  }
+
+  .number {
+    position: absolute;
+    color: #f3820a;
+    width: 205px;
+    height: 17px;
+    left: 385px;
+    top: 37px;
+    font-size: 22px;
+    font-family: Monsterrat-Blod;
+  }
+
+  .add {
+    position: absolute;
+    color: #f3820a;
+    width: 146px;
+    height: 10px;
+    left: 448px;
+    top: 63px;
+    font-size: 9px;
+    font-family: Monsterrat-Regular;
+  }
+
+  .cube {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15%;
+    color: #f3820a;
+    left: 642px;
+    top: 30px;
+  }
+
+  .cube2 {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15%;
+    color: #f3820a;
+    left: 692px;
+    top: 30px;
+  }
+
+  .cube:first-child {
     position: absolute;
     left: 642px;
     top: 30px;
     border-radius: 20%;
-}
-
-
-
-
-@media (min-width: 768px) {
-    .header {
-        width: 768px;
-        height: 90px;
-    }
-
-    .number {
-        position: absolute;
-        color: #f3820a;
-        width: 205px;
-        height: 17px;
-        left: 385px;
-        top: 37px;
-        font-size: 22px;
-        font-family: Monsterrat-Blod;
-    }
-
-    .add {
-        position: absolute;
-        color: #f3820a;
-        width: 146px;
-        height: 10px;
-        left: 448px;
-        top: 63px;
-        font-size: 9px;
-        font-family: Monsterrat-Regular;
-    }
-
-    .cube {
-        position: absolute;
-        width: 35px;
-        height: 30px;
-        border: 1px solid;
-        border-radius: 15%;
-        color: #f3820a;
-        left: 642px;
-        top: 30px;
-    }
-
-    .cube2 {
-        position: absolute;
-        width: 35px;
-        height: 30px;
-        border: 1px solid;
-        border-radius: 15%;
-        color: #f3820a;
-        left: 692px;
-        top: 30px;
-    }
-
-    .cube:first-child {
-        position: absolute;
-        left: 642px;
-        top: 30px;
-        border-radius: 20%;
-    }
+  }
 }
 
 @media (min-width: 768px) {
-    .header {
-        width: 100%;
-        height: 90px;
-        background-color: #4f181d;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+  .header {
+    width: 100%;
+    height: 90px;
+    background-color: #4f181d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .header__logo {
-        margin-left: 19px;
-    }
+  .header__logo {
+    margin-left: 19px;
+  }
 
-    .header__lines {
-        display: none;
-    }
+  .header__lines {
+    display: none;
+  }
 
-    .header__info {
-        display: flex;
-    }
+  .header__info {
+    display: flex;
+  }
 
-    .info__list {
-        display: flex;
-        margin-right: 41px;
-    }
+  .info__list {
+    display: flex;
+    margin-right: 41px;
+  }
 
-    .info__contacts {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-right: 65px;
-        font-size: 10px;
-    }
+  .info__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 65px;
+    font-size: 10px;
+  }
 
-    .contacts__number {
-        color: #e5790c;
-        font-family: "Montserrat_Bold";
-        font-size: 22px;
-        display: block;
-    }
+  .contacts__number {
+    color: #e5790c;
+    font-family: "Montserrat_Bold";
+    font-size: 22px;
+    display: block;
+  }
 
-    .contacts__address {
-        color: #e5790c;
-        font-family: "Montserrat_Regular";
-        font-weight: 400px;
-        font-size: 10px;
-        display: block;
-    }
+  .contacts__address {
+    color: #e5790c;
+    font-family: "Montserrat_Regular";
+    font-weight: 400px;
+    font-size: 10px;
+    display: block;
+  }
 
-    .list__item {
-        border: 1px solid #f3820a;
-        width: 35px;
-        height: 30px;
-        border-radius: 3px;
-        position: relative;
-    }
+  .list__item {
+    border: 1px solid #f3820a;
+    width: 35px;
+    height: 30px;
+    border-radius: 3px;
+    position: relative;
+  }
 
-    .list__item:first-child {
-        margin-right: 15px;
-    }
+  .list__item:first-child {
+    margin-right: 15px;
+  }
 
-    .info__icon {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 16px;
-    }
+  .info__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+  }
 }
-
-// Daniil
-// .header__menuButton div {
-//     background-color: #ffff;
-//     width: 25px;
-//     height: 2px;
-//     margin-bottom: 3px;
-// }
-
-// .header__menuButton {
-//     cursor: pointer;
-// }
-
-// .header__info-socialNetworks {
-//     display: flex;
-// }
-
-// .header__info {
-//     display: none;
-// }
-
-// .header__logoImg {
-//     width: 90px;
-//     height: 42px;
-// }
-
-// .header__menuButton div:last-child {
-//     margin-bottom: 0;
-// }
-
-// .header {
-//     background-color: #4f181d;
-//     height: 90px;
-//     padding: 0 20px;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     font-family: 'Montserrat', sans-serif;
-// }
-
-// .header__info-socialNetworks-logo {
-//     width: 35px;
-//     height: 30px;
-//     border: 1px solid #f3820a;
-//     border-radius: 5px;
-//     margin-right: 15px;
-// }
-
-// .header__info-socialNetworks-logoImg {
-//     margin: 0 auto;
-//     display: block;
-//     margin-top: 5px;
-// }
-
-// @media (min-width: 768px) and (orientation: landscape) {
-
-//     .header {
-//         padding: 0 35px;
-//     }
-
-//     .header__info-locationImg,
-//     .header__info-line,
-//     .header__menuButton {
-//         display: none;
-//     }
-
-//     .header__infoText {
-//         margin-right: 50px;
-//         display: grid;
-//     }
-
-//     .header__info {
-//         display: unset;
-//         display: flex;
-//     }
-
-//     .header__info-phoneNumber {
-//         font-size: 22px;
-//         color: #f3820a;
-//     }
-
-//     .header__info-location {
-//         font-size: 10px;
-//         color: #f3820a;
-//     }
-
-//     .header__info-location {
-//         text-align: right;
-//     }
-
-//     .header__info-socialNetworks-logo:last-child {
-//         margin-right: 0;
-//     }
-// }
-
-// @media (min-width: 1280px) {
-//     .header__logoImg {
-//         width: 116px;
-//         height: 54px;
-//     }
-// }
-
-// @media (min-width: 1920px) {
-//     .header__logoImg {
-//         width: 112px;
-//         height: 53px;
-//     }
-
-//     .header {
-//         padding: 0 160px;
-//     }
-
-//     .header__infoText,
-//     .header__info-line,
-//     .header__info-locationImg {
-//         display: unset;
-//     }
-
-//     .header__info-line {
-//         width: 1px;
-//         height: 20px;
-//         display: inline-block;
-//         margin: -1px 22px;
-//         background-color: #7b5256;
-//     }
-
-//     .header__info-location {
-//         position: absolute;
-//         top: 35px;
-//         right: 560px;
-//     }
-
-//     .header__info-location {
-//         font-size: 14px;
-//     }
-
-//     .header__info-location::before {
-//         content: url("./assets/icon\ pointer@1X.png");
-//         margin-right: 10px;
-//     }
-
-//     .header__info-phoneNumber {
-//         font-size: 24px;
-//     }
-// }
