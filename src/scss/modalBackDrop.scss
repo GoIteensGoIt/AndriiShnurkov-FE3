@@ -110,16 +110,30 @@
 }
 
 /* form */
-
+// .burger {
+//   position: relative;
+//   overflow: hidden;
+// }
 /* burger */
 .burger_open {
   display: flex;
   flex-flow: column;
   align-items: center;
   background-color: #4f181d;
-  width: 245px;
-  min-height: 100%;
-  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  z-index: 90;
+  left: -100%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+.burger_open.enter {
+  opacity: 1;
+  left: 0;
 }
 
 .burger_open-btn {
@@ -128,6 +142,7 @@
   top: 37px;
   right: 20px;
   border: none;
+  filter: invert(1);
 }
 
 .burger_open-phone {

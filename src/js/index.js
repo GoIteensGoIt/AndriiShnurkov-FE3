@@ -1,5 +1,3 @@
-console.log('fdsfsf');
-
 const modalForm = `
 <a class="modal-btn">
     <img src="../favicon/close-24px (1).svg" alt="close" width="24" height="24">
@@ -35,21 +33,6 @@ const modalDiscount = `
     </div>
 `;
 
-const modalBurger = `<div class="burger_open">
-    <a class="modal-btn"> 
-        <img src="../favicon/close-24px (1).svg" alt="close" width="24" height="24"> 
-    </a>
-      <p class="burger_open-phone">38 067 700 92 00</p>
-      <div><img src="./icons/place24px.svg" alt="location" height="24" width="24" /></div>
-      <p class="burger_open-address">Киев</p>
-      <p class="burger_open-address">пр-т Маяковского, 6</p>
-      <div class="burger_open-sm">
-        <a href="#" target="_blank"> <img class="icon" src="./icons/facebook.svg" alt="fb" height="16" width="16" /> </a>
-        <a href="#" target="_blank"> <img src="./icons/instagram.svg" alt="insta" height="16" width="16" /> </a>
-      </div>
-    </div>`
-
-
 function openModalBackDrop(modalFormStr) {
     const instance = basicLightbox.create(modalFormStr, {
         onShow: (instance) => {
@@ -73,6 +56,12 @@ document.querySelector('button[data-action = "reservation__imgBar-button"]').add
 
 document.querySelector('button[data-action = "discount__imgBar-button"]').addEventListener('click', (e) => {
     openModalBackDrop(modalDiscount)
+})
+document.querySelector('.header__lines').addEventListener('click', (e) => {
+    document.querySelector('.burger_open').classList.add('enter')
+})
+document.querySelector('.burger_open-btn').addEventListener('click', () => {
+    document.querySelector('.burger_open').classList.remove('enter')
 })
 
 
